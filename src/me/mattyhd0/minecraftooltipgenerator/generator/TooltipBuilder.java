@@ -146,7 +146,6 @@ public class TooltipBuilder {
         int i = 1;
         for(String line: lore){
 
-            //graphics2D.drawString(line, textCurrentX, textCurrentY);
             drawColoredText(graphics2D, line, textCurrentX, textCurrentY);
             textCurrentY += getTextHeight(font, line);
 
@@ -236,8 +235,6 @@ public class TooltipBuilder {
                 font = font.deriveFont(Font.BOLD);
             } else if (formats.contains(Minecraft.Format.ITALIC)){
                 font = font.deriveFont(Font.ITALIC);
-            } else {
-                //font = font.deriveFont(Font.PLAIN);
             }
 
             graphics2D.setFont(font);
@@ -272,8 +269,6 @@ public class TooltipBuilder {
             }
 
             x += getTextWidth(graphics2D.getFont(), textMatched);
-
-
 
         }
 
