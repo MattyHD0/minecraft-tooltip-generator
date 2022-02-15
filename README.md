@@ -17,7 +17,7 @@ public class Examples {
                 .addLore("  &27 Attack Damage")
                 .addLore("&8minecraft:diamond_sword")
                 .addLore("&8NBT: 1 tag(s)");
-A
+
         tooltipBuilder.save("diamond_sword.png");
 
     }
