@@ -1,6 +1,6 @@
 # Mineraft Tooltip Generator
 
-![](minecraft_tooltip_generator.png)
+![minecraft_tooltip_generator](https://user-images.githubusercontent.com/53882787/154136475-163b190b-9921-4feb-bf67-ae06e12aed6a.png)
 
 ## Examples:
 
@@ -17,7 +17,7 @@ public class Examples {
                 .addLore("  &27 Attack Damage")
                 .addLore("&8minecraft:diamond_sword")
                 .addLore("&8NBT: 1 tag(s)");
-A
+
         tooltipBuilder.save("diamond_sword.png");
 
     }
@@ -26,7 +26,7 @@ A
 
 ```
 
-![](diamond_sword.png)
+![diamond_sword](https://user-images.githubusercontent.com/53882787/154136499-d998241c-46c7-4e31-afef-b00e8082ae09.png)
 
 ```java
 
@@ -45,4 +45,5 @@ public class Examples {
 }
 ```
 
-![](hypixel_hyperion.png)
+![hypixel_hyperion](https://user-images.githubusercontent.com/53882787/154136530-c527828b-63c5-4d50-aef8-6abb51e36916.png)
+
