@@ -277,58 +277,6 @@ public class TooltipBuilder {
 
         }
 
-        /*text = (CODE +"f"+text).replaceAll(CODE+"ka", "▮");
-        for(String str: text.split(CODE)){
-
-            String c = "f";
-            if(str.length() > 0) c = str.substring(0, 1);
-
-            String stringToDraw = str.replaceFirst(c, "");
-
-            if(COLOR_CODES.containsKey(c)){
-                graphics2D.setColor(COLOR_CODES.get(c));
-            } else if (font_CODES.containsKey(c)){
-                graphics2D.setFont(graphics2D.getFont().deriveFont(font_CODES.get(c)));
-            }
-
-            graphics2D.drawString(stringToDraw, x, y);
-            graphics2D.setFont(font.deriveFont(Font.PLAIN));
-
-            x += getTextWidth(graphics2D.getFont(), stringToDraw);
-
-        }
-
-        graphics2D.setColor(COLOR_CODES.get("f"));*/
-
     }
-
-    /*
-
-    private void drawColoredText(Graphics2D graphics2D, String text, int x, int y){
-
-        text = (CODE +"f"+text).replaceAll(CODE+"ka", "▮");
-        for(String str: text.split(CODE)){
-
-            String c = "f";
-            if(str.length() > 0) c = str.substring(0, 1);
-
-            String stringToDraw = str.replaceFirst(c, "");
-
-            if(COLOR_CODES.containsKey(c)){
-                graphics2D.setColor(COLOR_CODES.get(c));
-            } else if (font_CODES.containsKey(c)){
-                graphics2D.setFont(graphics2D.getFont().deriveFont(font_CODES.get(c)));
-            }
-
-            graphics2D.drawString(stringToDraw, x, y);
-            graphics2D.setFont(font.deriveFont(Font.PLAIN));
-
-            x += getTextWidth(graphics2D.getFont(), stringToDraw);
-
-        }
-
-        graphics2D.setColor(COLOR_CODES.get("f"));
-
-    } */
 
 }
